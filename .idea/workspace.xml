@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4e059d09-9fce-4497-ac1d-d4b41cadf17c" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/rmq-hw.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/receive.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/send.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/.github/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/.github/ISSUE_TEMPLATE/1_Bug_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/.github/ISSUE_TEMPLATE/2_Feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/.github/ISSUE_TEMPLATE/3_Support_question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/CREDITS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazyConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPLazySocketConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSSLConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPSocketConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AMQPStreamConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Connection/AbstractConnection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPBasicCancelException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPChannelClosedException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPChannelException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPConnectionClosedException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPConnectionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPDataReadException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPEmptyDeliveryTagException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPHeartbeatMissedException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPIOException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPIOWaitException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPInvalidArgumentException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPInvalidFrameException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPLogicException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPNoDataException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPNotImplementedException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPOutOfBoundsException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPOutOfRangeException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolChannelException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolConnectionException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPProtocolException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPRuntimeException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPSocketException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exception/AMQPTimeoutException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Exchange/AMQPExchangeType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/DebugHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/MiscHelper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/MethodMap080.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/MethodMap091.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol080.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Protocol091.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Wait080.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/Protocol/Wait091.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Helper/SocketConstants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Message/AMQPMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPAbstractCollection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPArray.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPDecimal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AMQPWriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/AbstractClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants080.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/Constants091.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/GenericContent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/AbstractIO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/SocketIO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/docker/php/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/spec/amqp-rabbitmq-0.8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/spec/amqp-rabbitmq-0.9.1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/spec/parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/BACKERS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/AES.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/Base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/Blowfish.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/DES.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/Hash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/RC2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/RC4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/RSA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/Random.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/Rijndael.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/TripleDES.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Crypt/Twofish.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/File/ANSI.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/File/ASN1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/File/ASN1/Element.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/File/X509.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Math/BigInteger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Net/SCP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP/Stream.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Net/SSH1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/Net/SSH2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/System/SSH/Agent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/System/SSH/Agent/Identity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib/phpseclib/openssl.cnf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WVXFcsZw4Jgfs8HQsleQPyhaiW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e059d09-9fce-4497-ac1d-d4b41cadf17c" name="Default Changelist" comment="" />
+      <created>1579235632654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579235632654</updated>
+      <workItem from="1579235634849" duration="2062000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="811" y="127" key="CommitChangelistDialog2" timestamp="1579237855606">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="811" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1579237855606" />
+    <state x="1038" y="348" key="NewPhpClassDialog" timestamp="1579236653792">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="1038" y="348" key="NewPhpClassDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1579236653792" />
+    <state x="519" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1579235635467">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="519" y="336" key="com.intellij.ide.util.TipDialog/0.23.1680.961@0.23.1680.961" timestamp="1579235635467" />
+  </component>
+</project>
